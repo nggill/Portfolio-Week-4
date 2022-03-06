@@ -29,11 +29,11 @@
         font-size: 24px;
         line-height: 2;
     }
-    .btn-primary{
-    border-radius: 4px;
-    color:var(--primary-color);
-    background-color: #002A66;}
-    
-    .btn-primary :hover{
-        background-color: var(--teal);
+    .btn-primary {
+        background: var(--branding-color);
+        border-radius: 4px;
+        color: white;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
     }
