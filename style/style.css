@@ -1,11 +1,17 @@
 :root{
     font-family: 'Playfair Display', serif;
-    font-family: 'Poppins', sans-serif;}
-    h1{color:black;
+    font-family: 'Poppins', sans-serif;
+padding-left: 30px;
+--primary-color: #C0C1BB;}
+    h1{
         font-family: 'Playfair Display', serif;
         font-weight: bold;
+        background-color:var(--primary-color);
     }
     p{
         font-family: 'Playfair Display', serif;
         font-weight: normal;
+        background-color: var(--primary-color);
     }
+    .hero{background-color: var(--primary-color);
+    text-align: left;}
