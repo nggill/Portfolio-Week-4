@@ -50,9 +50,10 @@
         border: 4px solid var(--blue);
 
     }
- html, body{
+ html, .container{
             background: var(--primary-color);
         }
         img{
             max-width: 400px;
+            border-radius: 50%;
         }
