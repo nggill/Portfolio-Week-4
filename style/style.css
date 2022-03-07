@@ -19,6 +19,9 @@
     }
     .hero{background-color: var(--primary-color);
     text-align: left;}
+    .hero h1{
+        font-size: 48px;
+    }
     .hero p{ 
     font-size: 36px;
     margin: 0;}
@@ -29,11 +32,24 @@
         font-size: 24px;
         line-height: 2;
     }
-    .btn-primary {
-        background: var(--branding-color);
+
+    .btn-main{
+        color: var(--primary-color);
+        background: var(--blue);
+        padding:20px;
         border-radius: 4px;
-        color: white;
-        font-size: 18px;
-        line-height: 27px;
-        padding: 15px 30px;
+        text-decoration: none;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold; 
+        border: 4px solid var(--orange-cream);
     }
+    .btn-main:hover{
+        transition: 200ms;
+        background: var(--orange-cream);
+        color: var(--blue);
+        border: 4px solid var(--blue);
+
+    }
+ html, body{
+            background: var(--primary-color);
+        }
