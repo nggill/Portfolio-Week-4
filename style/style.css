@@ -53,3 +53,6 @@
  html, body{
             background: var(--primary-color);
         }
+        img{
+            max-width: 400px;
+        }
