@@ -7,6 +7,7 @@
     --red:#560609;
     --orange-cream:#BE9368;
     --light-cream:#C7BBA4;
+    background: #C0C1BB;
 }
     h1, h2, h3, h4, h5, h6{color: black;
         font-family: 'Playfair Display', serif;
@@ -50,16 +51,14 @@
         border: 2px solid var(--blue);
 
     }
- html, .container{
+.container{
             background: var(--primary-color);
+            border: #C0C1BB;
         }
         img{
             max-width: 400px;
             border-radius: 50%;
-            border-image: url(floral-border.png) 30 round
-        }
-        #borderimg {
             border: 10px solid transparent;
             padding: 15px;
-            border-image: url(floral-border.png) 30 round;
-          }
+        }
+ 
