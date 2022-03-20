@@ -7,34 +7,40 @@
     --red:#560609;
     --orange-cream:#BE9368;
     --light-cream:#C7BBA4;
-    background: #C0C1BB;
+    --white: #D5DAD9;
+    background-color: #C0C1BB;
 }
-    h1, h2, h3, h4, h5, h6{color: black;
+h1, h2, h3, h4, h5, h6{color: black;
         font-family: 'Playfair Display', serif;
         font-weight: bold;
     }
-    p{
+p{
         font-family: 'Playfair Display', serif;
         font-weight: normal;
         background-color: var(--primary-color);
+        font-size: 16px;
+        line-height: 1.5;
+
     }
-    .hero{background-color: var(--primary-color);
+.hero{background-color: var(--primary-color);
     text-align: left;}
-    .hero h1{
+.hero h1{
         font-size: 48px;
     }
-    .hero p{ 
+.hero p{ 
     font-size: 36px;
     margin: 0;}
 
-    .hero h2{
+.hero h2{
         font-family: "Poppins", sans-serif;
         font-weight: normal;
         font-size: 24px;
         line-height: 2;
     }
-
-    .btn-main{
+h4{
+    font-size: 64px;
+}
+.btn-main{
         color: var(--orange-cream);
         background: var(--blue);
         padding:20px;
@@ -44,21 +50,30 @@
         font-weight: bold; 
         border: 2px solid var(--orange-cream);
     }
-    .btn-main:hover{
+.btn-main:hover{
         transition: 300ms;
         background: var(--orange-cream);
         color: var(--blue);
         border: 2px solid var(--blue);
-
     }
-.container{
-            background: var(--primary-color);
-            border: #C0C1BB;
-        }
-        img{
-            max-width: 400px;
-            border-radius: 50%;
-            border: 10px solid transparent;
-            padding: 15px;
-        }
- 
+.container-fluid{
+    background-color: var(--primary-color);
+    border: #C0C1BB;
+           }
+img{
+    max-width: 400px;
+    padding-top: 20px;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(2px 2px 0 var(--blue))
+    drop-shadow(-1px -1px 0 var(--orange-cream));
+    filter: drop-shadow(2px 2px 0 var(--teal))
+    drop-shadow(-1px -1px 0 var(--red));}
+.btn-projects{
+    line-height: 27px;
+    padding:15px 30px;
+    font-size:18px;
+    border-radius: 4px;
+    color: var(--red);
+    text-decoration: none;
+    border:2px solid var(--red);
+padding-bottom: 20px;}
