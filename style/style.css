@@ -49,6 +49,7 @@ h4{
         font-family: 'Playfair Display', serif;
         font-weight: bold; 
         border: 2px solid var(--orange-cream);
+        padding:15px 30px;
     }
 .btn-main:hover{
         transition: 300ms;
@@ -85,3 +86,18 @@ padding-bottom: 20px;}
     font-size:18px;
     font-family: "poppins", sans-serif;
  }
+
+ .about-section{
+    padding:120px 20px;
+    margin: 30px;
+}
+
+@media(max-width:900px){
+    h1{
+        font-size: 44px;
+    line-height: 56px;}
+    h2{font-size: 44px;}
+    .hero{padding: 80px 20px;}
+    .about-section{text-align: center;
+    padding: 0;}
+}
