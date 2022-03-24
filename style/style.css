@@ -77,3 +77,11 @@ img{
     text-decoration: none;
     border:2px solid var(--red);
 padding-bottom: 20px;}
+.about-section h1{
+    line-height: 80px;
+    font-size: 64px;
+}
+.about-section h2{
+    font-size:18px;
+    font-family: "poppins", sans-serif;
+ }
