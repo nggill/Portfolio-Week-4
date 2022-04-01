@@ -1,14 +1,14 @@
 :root{
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
-    --primary-color: #C0C1BB;
+    --primary-color: #D2D5D4;
     --blue: #002A66;
     --teal: #006862;
     --red:#560609;
     --orange-cream:#BE9368;
     --light-cream:#C7BBA4;
     --white: #D5DAD9;
-    background-color: #C0C1BB;
+    background-color: #D2D5D4;
 }
 h1, h2, h3, h4, h5, h6{color: black;
         font-family: 'Playfair Display', serif;
@@ -17,9 +17,9 @@ h1, h2, h3, h4, h5, h6{color: black;
 p{
         font-family: 'Playfair Display', serif;
         font-weight: normal;
-        background-color: var(--primary-color);
         font-size: 16px;
         line-height: 1.5;
+        padding: 20px;
 
     }
 .hero{background-color: var(--primary-color);
@@ -59,25 +59,27 @@ h4{
     }
 .container-fluid{
     background-color: var(--primary-color);
-    border: #C0C1BB;
-           }
+    border: #C0C1BB;}
 img{
     max-width: 400px;
+border-radius: 4px;}
+.profilePicture{
     padding-top: 20px;
     border-radius: 50%;
     -webkit-filter: drop-shadow(2px 2px 0 var(--blue))
     drop-shadow(-1px -1px 0 var(--orange-cream));
     filter: drop-shadow(2px 2px 0 var(--teal))
-    drop-shadow(-1px -1px 0 var(--red));}
-.btn-projects{
+    drop-shadow(-1px -1px 0 var(--red));  
+}
+.btn-projects{font-family: 'Playfair display';
     line-height: 27px;
     padding:15px 30px;
     font-size:18px;
     border-radius: 4px;
-    color: var(--red);
+    color: var(--white);
     text-decoration: none;
-    border:2px solid var(--red);
-padding-bottom: 20px;}
+    padding-bottom: 20px;
+    background-color: var(--red);}
 .content h1{
     line-height: 80px;
     font-size: 64px;
@@ -95,9 +97,15 @@ padding-bottom: 20px;}
 @media(max-width:900px){
     h1{
         font-size: 44px;
-    line-height: 56px;}
+        line-height: 56px;}
     h2{font-size: 44px;}
-    .hero{padding: 80px 20px;}
-    .about-section{text-align: center;
-    padding: 0;}
+    .hero
+    {padding: 80px 20px;}
+    .about-section
+    {text-align: center;
+        padding: 0;}
+} 
+.projects{
+    -webkit-box-shadow: inset -1px -2px 21px 6px var(--teal); 
+    box-shadow: inset -1px -2px 21px 6px var(--teal);
 }
