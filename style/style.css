@@ -1,14 +1,14 @@
 :root{
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
-    --primary-color: #D2D5D4;
-    --blue: #002A66;
-    --teal: #006862;
-    --red:#560609;
-    --orange-cream:#BE9368;
+    --primary-color: #A8B4A5;
+    --blue: #0B1D51;
+    --teal: #363020;
+    --red:#C1292E;
+    --orange-cream:#FFA69E;
     --light-cream:#C7BBA4;
     --white: #D5DAD9;
-    background-color: #D2D5D4;
+    background-color: #A8B4A5;
 }
 h1, h2, h3, h4, h5, h6{color: black;
         font-family: 'Playfair Display', serif;
@@ -42,7 +42,7 @@ h4{
 }
 .btn-main{
         color: var(--orange-cream);
-        background: var(--blue);
+        background: var(--teal);
         padding:20px;
         border-radius: 4px;
         text-decoration: none;
@@ -50,12 +50,13 @@ h4{
         font-weight: bold; 
         border: 2px solid var(--orange-cream);
         padding:15px 30px;
+        box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.77);
     }
 .btn-main:hover{
         transition: 300ms;
         background: var(--orange-cream);
-        color: var(--blue);
-        border: 2px solid var(--blue);
+        color: var(--teal);
+        border: 2px solid var(--teal);
     }
 .container-fluid{
     background-color: var(--primary-color);
