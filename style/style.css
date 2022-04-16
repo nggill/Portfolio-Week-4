@@ -1,17 +1,16 @@
 :root{
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
-    --primary-color: #A8B4A5;
-    --blue: #0A014F;
-    --teal: #363020;
-    --red:#9E0031;
+    --black: #000100;
+    --teal:#586BA4;
+    --red:#EA638C;
     --purple:#985F99;
-    --orange-cream:#FCB9B2;
-    --light-cream:#C7BBA4;
+    --orange-cream:#89023E;
+    --light-cream:#FFD9DA;
     --white: #D5DAD9;
-    background-color: var(--blue);
+    background-color: var(--light-cream);
 }
-h1, h2, h3, h4, h5, h6{color: black;
+h1, h2, h3, h4, h5, h6{color: var(--black);
         font-family: 'Playfair Display', serif;
         font-weight: bold;
     }
@@ -23,7 +22,7 @@ p{
         padding: 20px;
         color: black;
     }
-.hero{background-color: var(--primary-color);
+.hero{background-color: var(--light-cream);
     text-align: left;}
 .hero h1{
         font-size: 48px;
