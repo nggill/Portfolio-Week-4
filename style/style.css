@@ -62,7 +62,7 @@ h4{
         border: 2px solid var(--purple);
     }
 .container-fluid{
-    background-color: var(--light-pink);
+    background-color: var(--red);
     border: var(--light-pink);}
 img{
     max-width: 400px;
@@ -115,7 +115,7 @@ border-radius: 4px;}
     background-color: #FFD9DA;
 }
 .navbar-custom, #color-correct {
-    background-color: var(--red);
+    background-color: var(--dark-pink);
     color:var(--teal);
     font-family:'Playfair Display', serif;
    
