@@ -21,9 +21,9 @@ p{
         font-weight: normal;
         font-size: 16px;
         line-height: 1.5;
-        padding: 20px;
         color: var(--black);
         background-color: var(--light-pink);
+        padding: 20px 0px;
 
     }
 .hero{background-color: var(--light-pink);
@@ -116,10 +116,10 @@ border-radius: 4px;}
 }
 .navbar-custom, #color-correct {
     background-color: var(--dark-pink);
-    color:var(--teal);
+    color:var(--white);
     font-family:'Playfair Display', serif;
-   
+   text-decoration: none;
 }
 body{
-    background-color: #FFD9DA;
+    background-color: var(--red);
 }
